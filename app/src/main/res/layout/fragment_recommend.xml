@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackground">
+
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_alpha_card"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/search" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_search"
+            android:background="#0000"
+            android:gravity="center"
+            android:hint="搜索"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <com.youth.banner.Banner
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/bn_banner"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="为 你 推 荐"
+                android:id="@+id/tv_recommend"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                android:layout_below="@id/bn_banner"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_function_background"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_recommend"
+                android:layout_below="@id/tv_recommend"
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="上 新 福 利"
+                android:id="@+id/tv_new"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                android:layout_below="@id/rv_recommend"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_function_background"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_new"
+                android:layout_below="@id/tv_new"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

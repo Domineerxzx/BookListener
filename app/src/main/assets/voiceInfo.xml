@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VoiceInfoList>
+	<voiceInfo _id="1">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 001</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0001.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="2">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 002</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0002.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="3">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 003</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0003.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="4">
+		<voice_type_id>2</voice_type_id>
+		<voice_name>逍遥游 001</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/xxy001.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/xyy.png</voice_image>
+		<author>老庄墨韩</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="5">
+		<voice_type_id>2</voice_type_id>
+		<voice_name>逍遥游 002</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/xxy002.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/xyy.png</voice_image>
+		<author>老庄墨韩</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="6">
+		<voice_type_id>2</voice_type_id>
+		<voice_name>逍遥游 003</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/xxy003.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/xyy.png</voice_image>
+		<author>老庄墨韩</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="7">
+		<voice_type_id>3</voice_type_id>
+		<voice_name>超级鉴宝师 001</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/cjjbs0001.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/cjjbs.png</voice_image>
+		<author>风乱刀</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="8">
+		<voice_type_id>3</voice_type_id>
+		<voice_name>超级鉴宝师 002</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/cjjbs0002.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/cjjbs.png</voice_image>
+		<author>风乱刀</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="9">
+		<voice_type_id>3</voice_type_id>
+		<voice_name>超级鉴宝师 003</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/cjjbs0003.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/cjjbs.png</voice_image>
+		<author>风乱刀</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="10">
+		<voice_type_id>4</voice_type_id>
+		<voice_name>全世界只有一个你 001</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/qsjzynyg01_a.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/qsjzynyg.png</voice_image>
+		<author>金大</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="11">
+		<voice_type_id>4</voice_type_id>
+		<voice_name>全世界只有一个你 002</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/qsjzynyg02_b.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/qsjzynyg.png</voice_image>
+		<author>金大</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="12">
+		<voice_type_id>4</voice_type_id>
+		<voice_name>全世界只有一个你 003</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/qsjzynyg03_c.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/qsjzynyg.png</voice_image>
+		<author>金大</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="13">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 004</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0004.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="14">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 005</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0005.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="15">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 006</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0006.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="16">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 007</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0007.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="17">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 008</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0008.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="18">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 009</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0009.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="19">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 010</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0010.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="20">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 011</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0011.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="21">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 012</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0012.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="22">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 013</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0013.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="23">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 014</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0014.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="24">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 015</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0015.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="25">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 016</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0016.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="26">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 017</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0017.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+	<voiceInfo _id="27">
+		<voice_type_id>1</voice_type_id>
+		<voice_name>战皇 018</voice_name>
+		<voice_path>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh0018.mp3</voice_path>
+		<voice_image>https://thethreestooges.oss-cn-shenzhen.aliyuncs.com/BookListener/zh.png</voice_image>
+		<author>傲天无痕</author>
+		<time>0</time>
+	</voiceInfo>
+</VoiceInfoList>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">懒人听书</string>
+    <string name="nicknameDefault">点击  登录/注册</string>
+    <string name="usernameDefault">暂无登录信息</string>
+</resources>

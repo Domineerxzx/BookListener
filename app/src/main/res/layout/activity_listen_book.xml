@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:id="@+id/iv_close_listen"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@mipmap/back" />
+
+            <ImageView
+                android:id="@+id/iv_collection"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@mipmap/collection" />
+
+            <VideoView
+                android:id="@+id/vv_voice"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/iv_close_listen"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_voice_image"
+                android:layout_alignTop="@id/vv_voice"
+                android:layout_alignBottom="@id/vv_voice"
+                android:layout_alignLeft="@id/vv_voice"
+                android:layout_alignRight="@id/vv_voice"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/tv_voice_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vv_voice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="XXXXXXXXXXXX"
+                android:textColor="@color/Black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_voice_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="xxxxxxxx"
+                android:textColor="@color/Gray"
+                android:textSize="12dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_author"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/tv_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="播放次数："
+                    android:textColor="@color/Gray"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_time_title"
+                    android:text="100000"
+                    android:textColor="@color/Gray"
+                    android:textSize="10dp" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:id="@+id/sb_voice"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_time"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/seekbar_bg"
+                android:thumb="@drawable/seekbar_thumb_bg"/>
+
+            <TextView
+                android:id="@+id/tv_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sb_voice"
+                android:layout_alignLeft="@id/sb_voice"
+                android:layout_marginTop="5dp"
+                android:text="00:00"
+                android:textColor="@color/AppColor"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sb_voice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/AppColor"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sb_voice"
+                android:layout_alignRight="@id/sb_voice"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/AppColor"
+                android:textSize="10dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/iv_play_or_pause"
+                android:layout_below="@id/sb_voice"
+                android:layout_marginTop="30dp"
+                android:background="@mipmap/play"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/iv_stop"
+                android:layout_below="@id/sb_voice"
+                android:layout_toRightOf="@id/iv_play_or_pause"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="40dp"
+                android:background="@mipmap/stop"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/iv_replay"
+                android:layout_below="@id/sb_voice"
+                android:layout_toLeftOf="@id/iv_play_or_pause"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="40dp"
+                android:background="@mipmap/replay"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:id="@+id/tv_recommend"
+                android:text="猜你喜欢"
+                android:background="@drawable/shape_function_background"
+                android:textSize="12dp"
+                android:textColor="@color/White"
+                android:gravity="center"
+                android:layout_below="@id/iv_play_or_pause"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_recommend"
+                android:layout_below="@id/tv_recommend"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

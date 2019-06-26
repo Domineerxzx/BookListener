@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <ImageView
+        android:id="@+id/iv_close_login"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/back"
+        android:layout_marginTop="20dp"/>
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_close_login"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="登录"
+        android:textStyle="bold"
+        android:textColor="@color/AppColor"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="手机号："
+        android:textSize="10dp" />
+    <LinearLayout
+        android:id="@+id/ll_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_phone_number"
+        android:background="@drawable/shape_alpha_card"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:hint="请输入手机号"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:background="#0000"
+            android:inputType="textEmailAddress"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_phone_number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="密码："
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_password"
+        android:background="@drawable/shape_alpha_card"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="请输入密码"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"
+            android:inputType="textPassword"
+            android:background="#0000"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/ll_password"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/shape_button"
+        android:text="登录"
+        android:textColor="@color/White"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/bt_create"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_alpha_card"
+        android:text="创建新账户"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+
+</RelativeLayout>

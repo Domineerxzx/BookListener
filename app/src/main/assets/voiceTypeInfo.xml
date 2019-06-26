@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VoiceTypeInfoList>
+	<voiceTypeInfo _id="1">
+		<voice_type_name>玄幻</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="2">
+		<voice_type_name>武侠</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="3">
+		<voice_type_name>都市</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="4">
+		<voice_type_name>言情</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="5">
+		<voice_type_name>女生</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="6">
+		<voice_type_name>科幻</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="7">
+		<voice_type_name>推理</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="8">
+		<voice_type_name>恐怖</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="9">
+		<voice_type_name>惊悚</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="10">
+		<voice_type_name>历史</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="11">
+		<voice_type_name>军事</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="12">
+		<voice_type_name>网游</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="13">
+		<voice_type_name>通俗</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="14">
+		<voice_type_name>相声</voice_type_name>
+	</voiceTypeInfo>
+	<voiceTypeInfo _id="15">
+		<voice_type_name>评书</voice_type_name>
+	</voiceTypeInfo>
+</VoiceTypeInfoList>
